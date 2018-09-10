@@ -1,6 +1,6 @@
 # Site settings
-title: Lin.Xu Blog
-SEOTitle: 徐林的博客 | Lin.xu Blog
+title: Lin.Xu Lab
+SEOTitle: 徐林的博客 | Lin.xu Lab
 header-img: img/post-bg-desk.jpg
 email: hzxulin@yeah.net
 description: "Great minds have purpose, others have wishes."
@@ -97,7 +97,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Charles Hsu",
-        href: "https://hzxulin.github.io/"
+        title: "Sixiang Le",
+        href: "https://echolsx.github.io/"
     }
 ]

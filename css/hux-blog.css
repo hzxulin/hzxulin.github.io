@@ -607,12 +607,25 @@ pre code {
 .post-preview > a {
   color: #404040;
 }
+.post-preview > a > .post-title > .title {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+.post-preview > a > .post-title > .post-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #984747;
 }
 .post-preview > a > .post-title {
+    font-size: 0;
   font-size: 21px;
   line-height: 1.3;
   margin-top: 30px;
@@ -627,7 +640,7 @@ pre code {
 }
 .post-preview > .post-meta {
   font-family: 'Lora', 'Times New Roman', serif;
-  color: #808080;
+  color: #984747;
   font-size: 16px;
   font-style: italic;
   margin-top: 0;
@@ -638,7 +651,7 @@ pre code {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085a1;
+  color: #984747;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -660,7 +673,7 @@ pre code {
   color: #a3a3a3;
 }
 .post-content-preview:hover {
-  color: #0085a1;
+  color: #c3737c;
 }
 @media only screen and (min-width: 768px) {
   .post-content-preview {
